@@ -1,10 +1,19 @@
+h1::before {
+  content: "";
+  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  filter: blur(3px);
+}
+
 h1 {
-  filter: drop-shadow(0px 2px 2px #00000080);
+  filter: drop-shadow(0px 2px 2px #ffffff80);
   -webkit-background-clip: text;
   background-clip: text;
-  background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  text-shadow: 1px 1px 1px #ff99cc;
+  padding-bottom: 8px;
 }
 
 @keyframes h1 {
@@ -24,7 +33,30 @@ span {
     color: transparent;
     animation: span 6s ease-in-out infinite;
     background-size: 400% 100%;
-    text-shadow: 0px 0px 4px #e29fff;
+    text-shadow: 0px 0px 3px #ffffff;
+    padding-bottom: 0px;
+    padding-right: 4px;
+    margin-top: 2px;
+}
+
+img::before {
+  content: "";
+  background: linear-gradient(90deg, cyan, white, pink);
+  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
+  position: fixed;
+  height: 60%;
+  width: 90%;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+img {
+  -webkit-background-clip: text;
+  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
+  background-clip: text;
+  color: transparent;
+  background: transparent;
+  shadow: 0px 1px 3px #ff7fff;
 }
 
 @keyframes span {
@@ -37,8 +69,16 @@ span {
 }
 }
 
+svg {
+  filter: drop-shadow(0px 2px 2px #ff5f1f80);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 10px 20px;
+  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
+}
+
 a {
-  filter: drop-shadow(0px 2px 2px #ff95ed80);
+  filter: drop-shadow(0px 2px 2px #ffffff80);
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
@@ -69,7 +109,7 @@ code {
   background-clip: text;
   background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  text-shadow: 1px 1px 1px #ff99cc;
+  text-shadow: 1px 1px 1px #fff5fa;
 }
 
 header::before {
@@ -77,19 +117,23 @@ header::before {
   background: linear-gradient(90deg, cyan, white, pink);
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
   position: fixed;
-  height: 50%;
+  height: 60%;
   width: 90%;
   z-index: -1;
   filter: blur(5px);
 }
 
 header {
-  filter: drop-shadow(0px 2px 2px #00000080);
+  filter: drop-shadow(0px 2px 2px #f87dff);
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
   text-shadow: 1px 1px 1px #ff99cc;
+}
+
+header::after {
+  text-shadow: 1px 1px 1px #ff6bb5;
 }
 
 @keyframes colorRotate {
@@ -108,4 +152,16 @@ header {
   100% {
     color: #6666ff;
   }
+}
+
+form { 
+  filter: drop-shadow(0px 2px 2px #00000080);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 10px 20px;
+  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
+  text-shadow: 1px 1px 3px #ff60efd6;
+  backdrop-filter: blur(1px);
+  filter: blur(0.8px);
+  background: transparent;
 }
