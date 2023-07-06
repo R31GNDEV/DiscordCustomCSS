@@ -1,0 +1,95 @@
+h1 {
+  background: linear-gradient(to right, #ffffff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: span 6s ease-in-out infinite;
+    background-size: 400% 100%;
+    text-shadow: 0px 0px 3px #e29fff;
+}
+
+span {
+  background: linear-gradient(to right, #ffffff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: span 6s ease-in-out infinite;
+    background-size: 400% 100%;
+    text-shadow: 0px 0px 4px #e29fff;
+}
+
+@keyframes span {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+}
+}
+
+a {
+  background-image: 
+  linear-gradient(to right, #ff95ef, #77b6fa, #ff95ef, #77b6fa, #ff95ef, #77b6fa, #ff95ef, #77b6fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 1px 1px);
+  animation: rainbow 8s ease infinite;
+  overflow: hidden;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+nav {
+  background: linear-gradient(to right, #ffffff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: nav 6s ease-in-out infinite;
+    background-size: 400% 100%;
+    text-shadow: 0px 0px 3px #e29fff;
+}
+
+code {
+  filter: drop-shadow(0px 2px 2px);
+  text-shadow: 0px 1px 0px (linear-gradient(to right, #ff95ef, rgb(0, 123, 255), #ff95ef, rgb(0, 123, 255), #ff95ef, rgb(0, 123, 255), #ff95ef, rgb(0, 123, 255)))
+}
+
+header {
+  background: linear-gradient(to right, #ffffff, #0099ff , #00ff00, #ff3399, #6666ff);
+   -webkit-background-clip: text;
+   background-clip: text;
+   text-align: center;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   background-size: 10px 20px;
+   -webkit-animation: colorRotate 2s ease-in-out 0s infinite;
+   text-shadow: 1px 1px 1px #ff99cc;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+@keyframes nav {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+}
+}
