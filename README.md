@@ -17,3 +17,6 @@ Third Party Custom CSS, use with your favorite discord client.
 
 ### Preview
 ![](preview.gif)
+
+### Recommended 
+Memory: 8GB+ (The amount of color loop is quite intense.)
