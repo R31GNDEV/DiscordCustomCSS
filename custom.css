@@ -110,7 +110,7 @@ code {
 
 header::before {
   content: "";
-  background: linear-gradient(90deg, cyan, white, pink);
+  background: linear-gradient(to right, #ffffff, #0099ff , #00ff00, #ff3399, #6666ff);
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
   position: fixed;
   height: 60%;
