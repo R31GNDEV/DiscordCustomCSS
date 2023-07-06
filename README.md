@@ -16,4 +16,4 @@ Third Party Custom CSS, use with your favorite discord client.
 - Might update, idk. Did this for fun. Star it if you want updates.
 
 ### Preview
-<img 240x240 src="https://cdn.discordapp.com/attachments/1083531040397721711/1126338320436306080/Trim.gif" alt="Preview" />
+<img src="https://cdn.discordapp.com/attachments/1083531040397721711/1126338320436306080/Trim.gif" alt="Preview" />
