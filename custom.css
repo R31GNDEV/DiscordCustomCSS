@@ -70,7 +70,7 @@ img {
 }
 
 svg {
-  filter: drop-shadow(0px 2px 2px #ff5f1f80);
+  filter: drop-shadow(0px 2px 2px #ffffff80);
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
@@ -83,10 +83,6 @@ a {
   background-clip: text;
   background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-}
-
-nav {
-
 }
 
 @keyframes nav {
@@ -155,7 +151,7 @@ header::after {
 }
 
 form { 
-  filter: drop-shadow(0px 2px 2px #00000080);
+  filter: drop-shadow(0px 2px 2px #ffffff80);
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
