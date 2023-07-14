@@ -15,7 +15,8 @@ span {
     background-size: 400% 100%;
     text-shadow: 0px 0px 1px #ffffff;
     margin-top: 2px;
-    -webkit-text-stroke: 0.2px rgb(255, 0, 208);
+    -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
 }
 
 svg {
