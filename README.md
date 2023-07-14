@@ -1,6 +1,9 @@
 # DiscordCustomCSS
 Third Party Custom CSS, use with your favorite discord client.
 
+## Vencord Users
+User Settings -> Vencord -> Open QuickCSS File -> Paste the code from ``Custom CSS`` into the Vencord Quick CSS Editor!
+
 ## BetterDiscord Users
 1. To use this, copy the code in "custom.css"
 
