@@ -5,7 +5,6 @@ h1::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  filter: blur(3px);
 }
 
 h1 {
@@ -33,7 +32,7 @@ span {
     color: transparent;
     animation: span 6s ease-in-out infinite;
     background-size: 400% 100%;
-    text-shadow: 0px 0px 3px #ffffff;
+    text-shadow: 0px 0px 1px #ffffff;
     padding-bottom: 0px;
     padding-right: 4px;
     margin-top: 2px;
@@ -47,7 +46,6 @@ img::before {
   height: 60%;
   width: 90%;
   z-index: -1;
-  filter: blur(5px);
 }
 
 img {
@@ -56,7 +54,7 @@ img {
   background-clip: text;
   color: transparent;
   background: transparent;
-  shadow: 0px 1px 3px #ff7fff;
+  shadow: 0px 1px 1px #ff7fff;
 }
 
 @keyframes span {
@@ -70,15 +68,14 @@ img {
 }
 
 svg {
-  filter: drop-shadow(0px 2px 2px #ffffff80);
+  filter: drop-shadow(0px 0px 2px #ffffffFF);
   -webkit-background-clip: text;
   background-clip: text;
-  background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
 }
 
 a {
-  filter: drop-shadow(0px 2px 2px #ffffff80);
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
@@ -93,10 +90,6 @@ a {
   50% {
     background-position: 100% 0;
 }
-}
-
-title {
-  text-shadow: 0px 0px 4px #e29fff;
 }
 
 code {
@@ -135,29 +128,31 @@ header::after {
 @keyframes colorRotate {
   from {
     color: #6666ff;
+    text-shadow: 1px 1px 8px #6666ff;
   }
   10% {
     color: #0099ff;
+    text-shadow: 1px 1px 9px #0099ff;
   }
   50% {
     color: #00ff00;
+    text-shadow: 1px 1px 3px #00ff00;
   }
   75% {
     color: #ff3399;
+    text-shadow: 1px 1px 3px #ff3399;
   }
   100% {
     color: #6666ff;
+    text-shadow: 1px 1px 8px #6666ff;
   }
 }
 
 form { 
-  filter: drop-shadow(0px 2px 2px #ffffff80);
+  filter: drop-shadow(0px 2px 2px #00000080);
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  text-shadow: 1px 1px 3px #ff60efd6;
-  backdrop-filter: blur(1px);
-  filter: blur(0.8px);
-  background: transparent;
+  text-shadow: 1px 1px 3px #60caff;
 }
