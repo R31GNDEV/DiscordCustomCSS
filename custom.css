@@ -1,29 +1,10 @@
-h1::before {
-  content: "";
-  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
 h1 {
-  filter: drop-shadow(0px 2px 2px #ffffff80);
+  filter: drop-shadow(0px 2px 2px #ffffff44);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
   padding-bottom: 8px;
   -webkit-text-stroke: 0.5px black;
-}
-
-@keyframes h1 {
-  0%,100% {
-      background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-}
 }
 
 span {
@@ -35,35 +16,6 @@ span {
     text-shadow: 0px 0px 1px #ffffff;
     margin-top: 2px;
     -webkit-text-stroke: 0.2px rgb(255, 0, 208);
-}
-
-img::before {
-  content: "";
-  background: linear-gradient(90deg, cyan, white, pink);
-  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  position: fixed;
-  height: 60%;
-  width: 90%;
-  z-index: -1;
-}
-
-img {
-  -webkit-background-clip: text;
-  -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  background-clip: text;
-  color: transparent;
-  background: transparent;
-  shadow: 0px 1px 1px #ff7fff;
-}
-
-@keyframes span {
-  0%,100% {
-      background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-}
 }
 
 svg {
@@ -82,16 +34,6 @@ a {
   -webkit-text-stroke: 0.5px black;
 }
 
-@keyframes nav {
-  0%,100% {
-      background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-}
-}
-
 code {
   filter: drop-shadow(0px 0px 1px #00000080);
   -webkit-background-clip: text;
@@ -101,7 +43,6 @@ code {
   text-shadow: 1px 1px 1px #fff5fa;
 }
 
-
 header {
   filter: drop-shadow(0px 2px 2px #f87dff);
   -webkit-background-clip: text;
@@ -110,10 +51,6 @@ header {
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
   text-shadow: 1px 1px 1px #ff99cc;
   -webkit-text-stroke: 1px black;
-}
-
-header::after {
-  text-shadow: 1px 1px 1px #ff6bb5;
 }
 
 @keyframes colorRotate {
@@ -140,10 +77,8 @@ header::after {
 }
 
 form { 
-  filter: drop-shadow(0px 2px 2px #00000080);
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 10px 20px;
   -webkit-animation: colorRotate 8s ease-in-out 0s infinite;
-  text-shadow: 1px 1px 3px #60caff;
 }
