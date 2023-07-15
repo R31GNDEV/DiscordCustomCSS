@@ -7,7 +7,7 @@ User Settings -> Vencord -> Open QuickCSS File -> Paste the code from ``Custom C
 ## BetterDiscord Users
 1. To use this, copy the code in "custom.css"
 
-2. Go to ``Custom CSS`` in your Discord client, found in your User Settings.
+2. Go to ``custom.css`` in your Discord client, found in your User Settings.
 <img src="https://cdn.discordapp.com/attachments/1093884973880193044/1126335458650116187/BD.png" alt="Preview" />
 
 3. Paste the Code = Profit.
@@ -20,6 +20,3 @@ User Settings -> Vencord -> Open QuickCSS File -> Paste the code from ``Custom C
 
 ### Preview
 ![](preview.gif)
-
-### Recommended 
-Memory: 8GB+ (The amount of color loop is quite intense.)
